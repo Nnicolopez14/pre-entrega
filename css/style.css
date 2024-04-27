@@ -399,6 +399,17 @@ footer div{
     height: 800px;
 }
 
+.encontranos h2{
+    font-weight: 700;
+    color: black;
+    padding: 9px 25px;
+    background: #B4B4B8;
+    border: none;
+    border-radius: 50px;
+}
+
+
+
 @media(max-width: 768px){
 nav .menu{
     width: 100%;
