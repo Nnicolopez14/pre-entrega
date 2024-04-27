@@ -215,6 +215,170 @@ footer div{
     box-shadow: 0 2px 5px #B4B4B8;
 }
 
+.formu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container-form{
+    height: 450px;
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: #B4B4B8;
+    transition: all ease;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.information{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #E3E1D9;
+    border-radius: 1.25rem;
+}
+
+.info{
+    width: 100%;
+    padding: 0 30px;
+}
+
+.info h1{
+    font-size: 1.8rem;
+    color: black;
+}
+
+.info p{
+    margin: 15px 0;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.info input{
+    background-color: #E3E1D9;
+    outline: none;
+    border: solid 2px #B4B4B8;
+    border-radius: 20px;
+    padding: 8px 2px;
+    color: black;
+    cursor: pointer;
+    transition: .03s ease;
+    text-align: center;
+}
+
+.info input:hover{
+    background-color: #F2EFE5;
+    border: none;
+    color: black;
+    box-shadow: 0 2px 5px #B4B4B8;
+}
+
+.form-information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    text-align: center;
+    background-color: #F2EFE5;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form-inf{
+    padding: 0 30px;
+}
+
+.icon{
+    margin: 15px 0;
+}
+
+.icon i{
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition:  0.3s ease;
+    box-shadow: 0 2px 5px #B4B4B8;
+}
+
+.icon i:hover{
+    background-color: #B4B4B8;
+    color: #E3E1D9;
+}
+
+.form{
+    margin: 30px 0 0 0;
+}
+
+.form label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-shadow: 0 2px 5px #B4B4B8;
+    background-color: #E3E1D9;
+}
+
+.form label input{
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: #555555;
+}
+
+.form label i{
+    color: #d6c3c3;
+}
+
+.form input[type="submit"]{
+    background-color: #555555;
+    color: #B4B4B8;
+    border-radius: 20px;
+    border: none;
+    padding: 12px 15px;
+    cursor: pointer;
+    margin: 1px;
+    box-shadow: 0 2px 5px #555555;
+}
+
+
+.contenido-info{
+    width: 100%;
+    text-align: center;
+    align-items: center;    
+}   
+
+.contenido-info h3{
+    font-size: 40px;
+    color: black;
+}
+
+.contenido-info h4{
+    margin: 15px 0;
+    color: black;
+    font-size: 25px;
+}
+.contenido-info p{
+    margin: 15px 0;
+    color: black;
+    font-size: 16px;
+}
+
+.foto-nike2{
+    height: 800px;
+    width: 100%;
+}
+
 @media(max-width: 768px){
 nav .menu{
     width: 100%;
