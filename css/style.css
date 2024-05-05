@@ -410,6 +410,7 @@ footer div{
 
 
 
+
 @media(max-width: 768px){
 nav .menu{
     width: 100%;
@@ -431,5 +432,31 @@ nav label{
 nav #toggle:checked ~.menu{
     height: 100%;
 }
+
+.encontranos{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.foto-logo-nike{
+    width: 100%;
+}
+
+.formu{
+    flex-direction: column;
+}
+}
+
+@media(max-width: 375px){
+.encontranos{
+    flex-direction: column;
+}
+
+.formu{
+    flex-direction: column;
+}
+
+
+
 
 }

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Nike</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   
 </head>
 <body>
-    <header class="header">
+    <header class="header container-fluid">
         <div class="logo">
             <img src="../assets/img/Logo-Nike.png" alt="Logo Nike">
         </div>
@@ -30,70 +31,85 @@
         <a href="#" class="btn"><button>Comprar</button></a>
         </nav>
     </header>
-    <main>
-        <section class="products-container">
+    <main class="container">
+        <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?q=80&w=2090&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1509983165097-0c31a863e3f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <section class="d-flex justify-content-center gap-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/702470-1000-1000?v=638233921673300000&width=1000&height=1000&aspect=true" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Air Force 1 07 LX "Pastel Paisley</h5>
+                  <p class="card-text">Zapatillas de Moda para Mujer</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/311575-1000-1000?v=638122461703830000&width=1000&height=1000&aspect=true" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Sportswear Phoenix Fleece</h5>
+                  <p class="card-text">Buzo de Moda para Mujer</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/717373-1000-1000?v=638245984914800000&width=1000&height=1000&aspect=true" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Air Max 95</h5>
+                  <p class="card-text">Zapatillas de Moda para Hombre</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </section>
+        <section class="d-flex justify-content-center gap-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/628917-1000-1000?v=638210589687530000&width=1000&height=1000&aspect=true" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Air Force 1 Mid ´07</h5>
+                  <p class="card-text">Zapatillas de Moda para Hombre</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/731370-1000-1000?v=638308280953600000&width=1000&height=1000&aspect=true" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nike Tech Hera</h5>
+                  <p class="card-text">Zapatillas de Moda para Mujer</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/600613-1000-1000?v=638188955300870000&width=1000&height=1000&aspect=true" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">San Lorenzo Visitante 2023</h5>
+                  <p class="card-text">Short de Futbol para Hombre</p>
+                  <a href="#" class="btn btn-primary">Comprar</a>
+                </div>
+              </div>
+        </section>
         
-            <div class="container-card">
-                <div>
-                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/452443-1200-1200?width=1200&height=1200&aspect=true" alt="Zapatillas Nike">
-                </div>
-                <div>
-                    <h2>Nike Downshifter 12</h2>
-                    <p>Zapatillas de Running para Hombre</p>
-                    <br>
-                    <button>Comprar</button>
-                </div>
-            </div>
-            <div class="container-card">
-                <div>
-                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/597393-1200-1200?width=1200&height=1200&aspect=true" alt="Buzo de mujer">
-                </div>
-                <div>
-                    <h2>Nike Sportswear Circa 96</h2>
-                    <p>Buzo de Moda para mujer</p>
-                    <br>
-                    <button>Comprar</button>
-                </div>
-            </div>
-            <div class="container-card">
-                <div>
-                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/212951-1200-1200?width=1200&height=1200&aspect=true" alt="Top deportivo de mujer">
-                </div>
-                <div>
-                    <h2>Nike Dri-FIT Trophy</h2>
-                    <p>Top Deportivo de Entrenamiento para Niño/a</p>
-                    <br>
-                    <button>Comprar</button>
-                </div>
-            </div>
-            <div class="container-card">
-                <div>
-                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/489511-1200-1200?width=1200&height=1200&aspect=true" alt="Ojotas Nike">
-                </div>
-                <div>
-                    <h2>Nike Victori One</h2>
-                    <p>Ojotas de Moda para mujer</p>
-                    <br>
-                    <button>Comprar</button>
-                </div>
-            </div>
-            <div class="container-card">
-                <div>
-                    <img src="https://nikearprod.vtexassets.com/arquivos/ids/423074-1200-1200?width=1200&height=1200&aspect=true" alt="Buzo con capucha de mujer">
-                </div>
-                <div>
-                    <h2>Nike Sportswear</h2>
-                    <p>Buzo con Capucha de Moda para Mujer</p>
-                    <br>
-                    <button>Comprar</button>
-                </div>
-            </div>
-            
-
-
-
     </main>
-    <footer>
+    <footer class="container-fluid">
         <div class="iconos">
             <i class="fa-solid fa-location-dot"></i>
             <li>Argentina</li>
